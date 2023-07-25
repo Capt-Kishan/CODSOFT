@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 230vh;
+    background-image: linear-gradient(to bottom,orange,white,green); ;
+    /* background-repeat: no-repeat; */
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container .image img{
+    width: 200px;
+    margin: 30px auto;
+    border: 1.5px solid black;
+    border-radius: 20px;
+}
+.container .information{
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 1.1rem;
+    width: 80%;
+    padding: 20px 50px;
+    border-radius: 20px;
+}
+.container .information ol li{
+    margin: 20px 0;
+    list-style: disclosure-closed;
+}
+
+.container .information ol{
+    line-height: 30px;
+}
